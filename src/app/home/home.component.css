@@ -1,0 +1,52 @@
+ul{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 150px;
+ 
+   
+}
+ul li a{
+    height: 25rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin:0.8rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929;
+    text-decoration: none;
+  
+
+}
+li a:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.content{
+    padding: 1rem;
+    position: relative;
+   
+   
+}
+.favorite{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.2rem;
+}
+.small-ratings{
+    margin-top: 5px;
+}
+.origins{
+    margin-top: 5px;
+}
+.price, .cook-time{
+    color: #414141;
+    margin-top: 5px;
+  
+}
+
